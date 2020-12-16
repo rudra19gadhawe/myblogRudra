@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+}
+
+#tbl {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.Rudra {
+    list-style: none;
+    position: fixed;
+    z-index: 10;
+    top: 10px;
+    right: 30px;
+    cursor: pointer
+}
+
+.link {
+    float: left;
+    color: black;
+    padding: 7px;
+    font-family: cursive;
+    font-size: 30px;
+
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace
+}
+
+#s2 {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+#Welcome {
+    position: absolute;
+    height: 800px;
+    color: red;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(#f50707, #4209ed);
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    display: table;
+    z-index: 9;
+}
+
+.s1 {
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    display: table-cell
+}
+#writings{
+    text-align: justify;
+    background-color: gold
+}
+#videos{
+    text-align: center
+}
